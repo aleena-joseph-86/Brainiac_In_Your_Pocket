@@ -1,0 +1,145 @@
+{
+    "intents": [
+      {
+        "tag": "anxiety_disorders_children",
+        "patterns": [
+          "What are the signs of anxiety disorders in children?"
+        ],
+        "responses": [
+          "Signs of anxiety in children include persistent worry, avoidance of certain activities, physical symptoms like headaches or stomachaches, and changes in behavior like irritability or clinginess."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "cope_bullying_school",
+        "patterns": [
+          "How can I help my child cope with bullying at school?"
+        ],
+        "responses": [
+          "Encourage open communication with your child, teach them how to respond to bullies assertively, involve school authorities, and consider counseling to help your child build resilience and self-esteem."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "sexual_education_child",
+        "patterns": [
+          "What is the best way to approach the topic of sexual education with my child?"
+        ],
+        "responses": [
+          "Start early with age-appropriate conversations, use correct anatomical terms, be open to questions, and discuss values and safety, including consent and boundaries."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "recognize_child_depression",
+        "patterns": [
+          "How do I recognize if my child is experiencing depression?"
+        ],
+        "responses": [
+          "Signs of depression in children can include persistent sadness, loss of interest in activities, changes in appetite or sleep, fatigue, and feelings of worthlessness or guilt."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "neurodiversity_understanding_disorders",
+        "patterns": [
+          "Can you explain the concept of neurodiversity and its importance in understanding developmental disorders?"
+        ],
+        "responses": [
+          "Neurodiversity is the concept that neurological differences like autism and ADHD are normal variations in the human brain. It emphasizes understanding and accommodating these differences rather than viewing them as deficits."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "suspect_child_sexual_abuse",
+        "patterns": [
+          "What should I do if I suspect my child is the victim of sexual abuse?"
+        ],
+        "responses": [
+          "If you suspect sexual abuse, create a safe environment for your child to talk, believe their disclosure, avoid pressuring them for details, and contact appropriate authorities and a mental health professional."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "support_child_mental_health_family_crisis",
+        "patterns": [
+          "How can I support my child's mental health during a family crisis?"
+        ],
+        "responses": [
+          "Maintain routines, provide emotional support, encourage expression of feelings, limit exposure to adult conversations about the crisis, and seek professional help if needed."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "excessive_screen_time_effects",
+        "patterns": [
+          "What are the effects of excessive screen time on a child's development?"
+        ],
+        "responses": [
+          "Excessive screen time can impact a child's sleep, physical health, attention span, and social skills. It's important to set limits and encourage a balance with offline activities."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "teach_child_peer_pressure",
+        "patterns": [
+          "How can I teach my child to deal with peer pressure effectively?"
+        ],
+        "responses": [
+          "Teach them to recognize peer pressure, discuss the importance of values and making their own decisions, role-play responses, and encourage them to choose friends who respect their choices."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "approach_subject_body_image_teenager",
+        "patterns": [
+          "How do I approach the subject of body image and self-esteem with my teenager?"
+        ],
+        "responses": [
+          "Discuss media literacy, emphasize internal qualities over appearance, model positive body talk, encourage healthy habits, and be attentive to signs of eating disorders or extreme body dissatisfaction."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "early_signs_autism_toddlers",
+        "patterns": [
+          "What are the early signs of autism in toddlers?"
+        ],
+        "responses": [
+          "Early signs of autism in toddlers can include limited eye contact, delayed speech development, repetitive behaviors, and not responding to their name."
+        ],
+        "context_set": ""
+      },
+      {
+        "tag": "explain_personal_boundaries_young_child",
+        "patterns": [
+          "How can I explain the concept of personal boundaries to my young child?"
+        ],
+        "responses": [
+          "Use simple language to teach that their body belongs to them, they have the right to say no to unwanted touch, and they should respect others' boundaries as well."
+        ],
+        "context_set": ""
+      },
+      {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Farewell, hope I was of help! :)"],
+         "context_set": ""
+        },
+        {"tag": "identity",
+         "patterns": ["who are you?", "what are you", ""],
+         "responses": ["I am an AI Chatbot developed by 2nd year B.E CSE students of Government College of Technology,Coimbatore. my work is to talk to you after analyzing what you have asked me and give you information about the same."], 
+         	"context_set": ""
+        },
+        {"tag": "authors",
+         "patterns": ["Name the students from GCT who created you.", "what are the name of the students from Government College of Technology,Coimbatore who created you?", "Name the students"],
+         "responses": ["Aleena Joseph, Jawahar Srinath, Lakshmi Prabha, Srika, Piyush"], 
+         	"context_set": ""
+        }
+    ]
+  }
+
