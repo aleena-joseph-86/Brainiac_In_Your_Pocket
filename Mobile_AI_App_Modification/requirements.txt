@@ -1,0 +1,9 @@
+Kivy==2.3.0
+requests==2.31.0
+keras==3.3.3
+pillow==10.3.0
+tensorflow==2.16.1
+tensorflow-intel==2.16.1
+tflearn==0.3.2
+nltk==3.8.1
+numpy==1.26.4

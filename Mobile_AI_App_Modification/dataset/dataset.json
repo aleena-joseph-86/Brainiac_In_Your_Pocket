@@ -1,0 +1,324 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon"],
+      "responses": ["Hello! How can I assist you?", "Hi there! How can I help you today?", "Hey! What can I do for you?"]
+    },
+    {
+      "tag": "ai_intro",
+      "patterns": ["Tell me about yourself", "What can you do?", "Introduce yourself"],
+      "responses": ["I'm your friendly AI chatbot! I can assist you with information retrieval, task management, productivity enhancement, and entertainment. Feel free to ask me anything!"]
+    },
+    {
+      "tag": "book_recommendation",
+      "patterns": ["Can you recommend a good book for me?", "I need a book suggestion"],
+      "responses": ["Of course! What genre are you interested in?"]
+    },
+    {
+      "tag": "science_fiction_books",
+      "patterns": ["I like science fiction.", "Science fiction books"],
+      "responses": ["Great choice! How about 'Dune' by Frank Herbert?"]
+    },
+    {
+      "tag": "book_plot",
+      "patterns": ["What's the plot of 'Dune'?", "Tell me about the book 'Dune'"],
+      "responses": ["It's a science fiction novel set in the distant future where noble houses control planets and a young noble seeks to avenge his family's downfall."]
+    },
+    {
+      "tag": "reminder",
+      "patterns": ["Remind me to buy groceries tomorrow.", "Set a reminder for groceries"],
+      "responses": ["Sure thing! I've set a reminder for you to buy groceries tomorrow."]
+    },
+    {
+      "tag": "productivity_articles",
+      "patterns": ["Can you find articles about productivity tips?", "I need productivity advice"],
+      "responses": ["Absolutely! Here are some articles I found: [Article 1], [Article 2], [Article 3]."]
+    },
+    {
+      "tag": "focus_music",
+      "patterns": ["Play some music to help me focus.", "Music for concentration"],
+      "responses": ["Sure, here's a playlist of instrumental music that can help you concentrate."]
+    },
+    {
+      "tag": "project_research",
+      "patterns": ["I need help with project research.", "Assist me with research"],
+      "responses": ["I can assist you with that. What specific information are you looking for?"]
+    },
+    {
+      "tag": "popular_movies",
+      "patterns": ["What are some popular movies released this year?", "Popular movies"],
+      "responses": ["Here are a few popular movies released this year: [Movie 1], [Movie 2], [Movie 3]."]
+    },
+    {
+      "tag": "documentary_recommendation",
+      "patterns": ["Can you recommend a documentary about space?", "Space documentaries"],
+      "responses": ["Certainly! 'The Planets' by BBC is an excellent documentary series about our solar system."]
+    },
+    {
+      "tag": "latest_news",
+      "patterns": ["What's the latest news headlines?", "Latest news"],
+      "responses": ["Let me fetch the latest news headlines for you..."]
+    },
+    {
+      "tag": "meeting_scheduling",
+      "patterns": ["Can you set up a meeting with John for next Monday?", "Schedule a meeting"],
+      "responses": ["Sure thing! I'll schedule a meeting with John for next Monday. What time works best for you?"]
+    },
+    {
+      "tag": "recipe_recommendation",
+      "patterns": ["Find me a recipe for spaghetti carbonara.", "Spaghetti carbonara recipe"],
+      "responses": ["Spaghetti carbonara coming right up! Here's a delicious recipe for you to try."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke.", "Jokes"],
+      "responses": ["Why don't scientists trust atoms? Because they make up everything!"]
+    },
+    {
+      "tag": "programming_tips",
+      "patterns": ["How do I improve my programming skills?", "Programming tips"],
+      "responses": ["There are many ways to improve your programming skills, such as practicing regularly, working on projects, and participating in coding challenges."]
+    },
+    {
+      "tag": "study_tips",
+      "patterns": ["What's the best way to stay focused while studying?", "Study tips"],
+      "responses": ["Some tips for staying focused while studying include creating a dedicated study space, breaking tasks into smaller chunks, and taking regular breaks."]
+    },
+    {
+      "tag": "movie_recommendation",
+      "patterns": ["Can you recommend a movie for a cozy night in?", "Cozy movie recommendation"],
+      "responses": ["Sure! How about 'The Shawshank Redemption'? It's a classic that's perfect for a cozy night in."]
+    },
+    {
+      "tag": "capital_query",
+      "patterns": ["What's the capital of France?", "Capital of France"],
+      "responses": ["The capital of France is Paris."]
+    },
+    {
+      "tag": "cooking_tips",
+      "patterns": ["How do I cook a perfect steak?", "Steak cooking tips"],
+      "responses": ["Cooking a perfect steak depends on personal preference, but some general tips include choosing a good quality cut, seasoning generously, and cooking to the desired level of doneness."]
+    },
+    {
+      "tag": "programming_languages",
+      "patterns": ["What's the difference between Java and JavaScript?", "Java vs JavaScript"],
+      "responses": ["Java and JavaScript are two different programming languages. Java is a statically typed language commonly used for building large-scale enterprise applications, while JavaScript is a dynamically typed language primarily used for web development."]
+    },
+    {
+      "tag": "pyramids_history",
+      "patterns": ["Tell me about the history of the pyramids.", "Pyramids history"],
+      "responses": ["The pyramids of Egypt were built as tombs for the country's pharaohs and their consorts during the Old and Middle Kingdom periods. The most famous of these is the Great Pyramid of Giza, built for Pharaoh Khufu around 2560 BC."]
+    },
+    {
+      "tag": "language_learning_tips",
+      "patterns": ["How can I learn a new language quickly?", "Language learning tips"],
+      "responses": ["Learning a new language takes time and practice, but some tips for speeding up the process include immersing yourself in the language, practicing regularly, and using language learning apps and resources."]
+    },
+    {
+      "tag": "morning_routine",
+      "patterns": ["What's the best way to start a morning routine?", "Morning routine tips"],
+      "responses": ["A good morning routine can set the tone for the day. Some suggestions include starting with a healthy breakfast, exercising, and setting goals for the day ahead."]
+    },
+    {
+      "tag": "finance_podcast",
+      "patterns": ["Can you recommend a podcast about personal finance?", "Personal finance podcast"],
+      "responses": ["Absolutely! 'The Dave Ramsey Show' is a popular"]
+    },
+    {"tag": "goodbye",
+    "patterns": ["bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+    "responses": ["Farewell, hope I was of help! :)"],
+    "context_set": ""
+   },
+   {"tag": "identity",
+    "patterns": ["who are you?", "what are you", ""],
+    "responses": ["I am an AI Chatbot developed by 2nd year B.E CSE students of Government College of Technology,Coimbatore. my work is to talk to you after analyzing what you have asked me and give you information about the same."], 
+      "context_set": ""
+   },
+   {"tag": "authors",
+    "patterns": ["Name the students from GCT who created you.", "what are the name of the students from Government College of Technology,Coimbatore who created you?", "Name the students"],
+    "responses": ["Aleena Joseph, Jawahar Srinath, Lakshmi Prabha, Srika, Piyush"], 
+      "context_set": ""
+   },
+  {
+      "tag": "book_mockingbird",
+      "patterns": [
+          "recommend a book similar to To Kill a Mockingbird",
+          "suggest a novel like To Kill a Mockingbird",
+          "books with themes like To Kill a Mockingbird"
+      ],
+      "responses": [
+          "If you enjoyed To Kill a Mockingbird, you might also like:"
+      ],
+      "context_set": ""
+  },
+  {
+    "tag": "movie_shawshank",
+    "patterns": [
+        "recommend a movie similar to The Shawshank Redemption",
+        "suggest a film like The Shawshank Redemption",
+        "movies with themes like The Shawshank Redemption"
+    ],
+    "response": [
+        "If you liked The Shawshank Redemption, you might also enjoy:"
+    ],
+    "context_set": ""
+  },
+  {
+  "tag": "article_ai_impact",
+  "patterns": [
+      "recommend an article on AI",
+      "suggest a read about AI impact",
+      "articles related to AI and society"
+  ],
+  "response": [
+      "Here's an article on the impact of AI on society:"
+  ],
+  "context_set": ""
+  },
+  {
+  "tag": "python_description",
+  "patterns": [
+      "learn Python programming",
+      "Python beginner projects",
+      "what is Python used for"
+  ],
+  "responses": [
+      "Python is a versatile, high-level programming language known for its simplicity and readability.",
+      "For beginners, you can start with projects like creating a simple calculator or a to-do list application in Python."
+  ],
+  "context_set": ""
+  },
+  {
+  "tag": "java_description",
+  "patterns": [
+      "learn Java programming",
+      "Java beginner projects",
+      "what is Java used for"
+  ],
+  "responses": [
+      "Java is a robust, object-oriented programming language widely used for building enterprise-scale applications.",
+      "For beginners, you can start with projects like developing a basic library management system in Java."
+  ],
+  "context_set": ""
+  },
+  {
+  "tag": "javascript_description",
+  "patterns": [
+      "learn JavaScript programming",
+      "JavaScript beginner projects",
+      "what is JavaScript used for"
+  ],
+  "responses": [
+      "JavaScript is a dynamic programming language commonly used for creating interactive web applications.",
+      "For beginners, you can start with projects like building a simple interactive website or a weather app using an API in JavaScript."
+  ],
+  "context_set": ""
+  } ,
+  {
+  "tag": "c_description",
+  "patterns": [
+      "learn C programming",
+      "C beginner projects",
+      "what is C used for"
+  ],
+  "responses": [
+      "C is a powerful system programming language known for its performance and low-level access to memory.",
+      "For beginners, you can start with projects like implementing basic data structures like linked lists or binary trees in C."
+  ],
+  "context_set": ""
+},
+{
+  "tag": "time_management_tip",
+  "patterns": [
+      "how to manage study time effectively",
+      "time management techniques",
+      "study schedule tips"
+  ],
+  "responses": [
+      "Use techniques like the Pomodoro Technique to manage study sessions efficiently.",
+      "Allocate specific times for studying, breaks, and reviewing to manage your time effectively."
+  ],
+  "context_set": ""
+},
+{
+  "tag": "active_learning_tip",
+  "patterns": [
+      "how to engage in active learning",
+      "tips for interactive learning",
+      "active study techniques"
+  ],
+  "responses": [
+      "Engage with the material through discussions, teaching others, and applying concepts to practical projects.",
+      "Active learning involves actively participating in the learning process rather than passively consuming information."
+  ],
+  "context_set": ""
+},
+{
+  "tag": "practice_tip",
+  "patterns": [
+      "how to practice coding regularly",
+      "coding practice tips",
+      "building coding habits"
+  ],
+  "responses": [
+      "Regular practice and repetition are key to mastering new concepts.",
+      "Make a habit of coding daily to improve your programming skills."
+  ],
+  "context_set": ""
+},
+{
+  "tag": "diet_tip",
+  "patterns": [
+      "how diet affects memory",
+      "foods for better memory",
+      "nutrition for brain health"
+  ],
+  "responses": [
+      "Consume foods rich in antioxidants, good fats, vitamins, and minerals to improve brain health.",
+      "A healthy diet plays a significant role in enhancing memory and cognitive function."
+  ],
+  "context_set": ""
+},
+{
+  "tag": "exercise_tip",
+  "patterns": [
+      "how exercise improves memory",
+      "physical activities for better memory",
+      "exercise for brain health"
+  ],
+  "responses": [
+      "Physical activities increase blood flow to the brain, enhancing cognitive functions and memory.",
+      "Regular exercise is beneficial for memory retention and overall brain health."
+  ],
+  "context_set": ""
+},
+{
+  "tag": "sleep_tip",
+  "patterns": [
+      "how sleep affects memory",
+      "sleeping habits for better memory",
+      "quality sleep for brain health"
+  ],
+  "responses": [
+      "Quality sleep is crucial for memory consolidation and cognitive performance.",
+      "Adequate sleep supports brain function and improves memory retention."
+  ],
+  "context_set": ""
+},
+{
+  "tag": "mindfulness_tip",
+  "patterns": [
+      "how mindfulness improves memory",
+      "meditation for better memory",
+      "mindfulness practices for brain health"
+  ],
+  "responses": [
+      "Practicing mindfulness and meditation can reduce stress and improve memory retention.",
+      "Mindfulness exercises promote a calm mind, enhancing cognitive function and memory."
+  ],
+  "context_set": ""
+}
+],
+"tasks": []
+}
