@@ -42,7 +42,7 @@ class ChatApp(App):
             response = chat(user_input)
         elif self.mode == "recommendations":
             response = get_recommendations(user_input)
-            response = "\n".join(response)
+            #response = "\n".join(response)
         elif self.mode == "task_manager":
             if user_input.startswith("add task"):
                 task = user_input[len("add task "):]
